@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Tickets</title>
+    <link rel="stylesheet" href="bustickt.css">
+</head>
+<body>
+    
+        
+    
+    <div>
+     
+        <h2 id="h22">Booking Tickets</h2>
+        <h4>Search For Your Trip</h4>
+        <!-- <nav class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Search Trip</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>   -->
+   
+        <br>
+        <form action="departurelist.html" method="POST">
+            <input  type="radio" name="tripstatus"><label  class="T_S" for="">One Way</label>
+            <input  type="radio" name="tripstatus"><label class="T_S" for="">Round-Trip</label>
+            <br>
+            <br>
+           
+            <select name="origin" id="" required>
+                <option value="">Origin</option>
+                 <option value="">damascus</option>
+                 <option value="">Allepo</option>
+            </select> 
+           
+            <select name="Destination" id="" required>
+              <option value="">destination</option>
+               <option value="">damascus</option>
+               <option value="">Allepo</option>
+          </select>
+          <br>
+          <br>
+          <input id="T_D" type="date" placeholder="Trip date" >
+          
+          
+          <select name="companies" id="">
+              <option value="">Company</option>
+               <option value="">Tarwada</option>
+               <option value="">alqadmous</option>
+          </select>
+          <br><br>
+         <button type="submit">Search</button>
+        </form>
+    </div>
+</body>
+</html>

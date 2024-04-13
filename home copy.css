@@ -204,7 +204,9 @@ figcaption {
 }
 
 img.CardImg {
-    width: 133%;
+    width: 105%;
+    position: relative;
+    right: 25px;
 }
 figcaption {
     height: 37px;

@@ -1,0 +1,44 @@
+body{
+    background :url(booking.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2{
+    font-size:45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #195E82;
+    margin: 75px 25px 37px;
+}
+input{
+    size: 50px;
+    font-size: 16px;
+    width: 409px;
+    height: 45px;
+    border: 1.5px solid #388ab6;
+    border-radius: 40px;
+    padding: 0px 5px 0px 16px;
+    color: #888888;
+    background-color: transparent;
+    margin: 15px 10px 9px 34px;
+}
+    
+
+button{
+    font-size: 17px;
+    width: 128px;
+    height: 39px;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    background: #2DABCA;
+    margin-top: 20px;
+}
+#con{
+    margin: 36px 0px 0px 204px;
+}
+#plus{
+    width: 46px;
+    height: 46px;
+    border-radius: 40px;
+    margin: 33px 10px 0px 53px; 
+}

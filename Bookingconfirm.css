@@ -2,43 +2,69 @@ body{
     background :url(booking.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
 }
 h2{
-    font-size:45px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #195E82;
-    margin: 75px 25px 37px;
+    font-size: 54px;
+    text-shadow: 3px 3px 7px #ababab;
+    color: #13709a;
+    font-family: dosis;
+    position: absolute;
+    left: 60px;
+    top: 46px;
 }
 input{
     size: 50px;
     font-size: 16px;
-    width: 409px;
+    width: 509px;
     height: 45px;
-    border: 1.5px solid #388ab6;
+    border: 1.7px solid #54A9BE;
     border-radius: 40px;
     padding: 0px 5px 0px 16px;
-    color: #888888;
+    color: #54A9BE;
     background-color: transparent;
     margin: 15px 10px 9px 34px;
+    box-shadow: 2px 2px 7px #ababab;
 }
-    
+input::placeholder{
+    color: #54A9BE;
+}
+.data:focus{
+    border: 2px solid  #988bdb;
+    transition: .3s ease;
+   } 
 
 button{
-    font-size: 17px;
-    width: 128px;
-    height: 39px;
+    width: 150px;
+    height: 45px;
     color: #fff;
-    border: none;
-    border-radius: 40px;
+    font-weight: 600;
     background: #2DABCA;
-    margin-top: 20px;
+    border: none;
+    font-size: 18px;
+    font-family: 'Dosis';
+    border-radius: 40px;
+    cursor: pointer;
+    box-shadow: 0px 1px 10px #ababab;
+    transition: .4s ease;
+    letter-spacing: 1px;
+}
+button:hover{
+    transition: .3s ease;
+    background-color: #147ead;
 }
 #con{
-    margin: 36px 0px 0px 204px;
+    position: relative;
+    left: 308px;
 }
 #plus{
     width: 46px;
     height: 46px;
     border-radius: 40px;
     margin: 33px 10px 0px 53px; 
+}
+form{
+    position: absolute;
+    left: 31px;
+    top: 184px;
 }

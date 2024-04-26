@@ -3,35 +3,45 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    font-family: 'Raleway';
 }
 h2{
     font-size: 54px;
-    text-shadow: 3px 3px 7px #ababab;
-    color: #13709a;
-    font-family: dosis;
     position: absolute;
     left: 60px;
-    top: 46px;
+    top: 71px;
+    font-family: 'Raleway';
+    color: #3f70d0;
+    text-shadow: 1px 1px 3px #ababab;
+}
+h3{
+    position: absolute;
+    left: 63px;
+    top: 181px;
+    color: #3f70d0a6;
 }
 input{
     size: 50px;
     font-size: 16px;
-    width: 509px;
+    width: 441px;
     height: 45px;
-    border: 1.7px solid #54A9BE;
+    border: 1.7px solid #3f70d066;
     border-radius: 40px;
     padding: 0px 5px 0px 16px;
-    color: #54A9BE;
-    background-color: transparent;
-    margin: 15px 10px 9px 34px;
+    color: #3f70d0;
+    background-color: #ffffffb0;
+    margin: 15px 10px 9px 6px;
     box-shadow: 2px 2px 7px #ababab;
+    position: relative;
+    left: 20px;
+    top: 75px;
 }
 input::placeholder{
-    color: #54A9BE;
+    color: #3f70d0f7;
 }
 .data:focus{
     border: 2px solid  #988bdb;
-    transition: .3s ease;
+    /* transition: .3s ease; */
    } 
 
 button{
@@ -39,15 +49,18 @@ button{
     height: 45px;
     color: #fff;
     font-weight: 600;
-    background: #2DABCA;
+    background: #3f70d0;
     border: none;
     font-size: 18px;
-    font-family: 'Dosis';
+    font-family: 'Raleway';
     border-radius: 40px;
     cursor: pointer;
-    box-shadow: 0px 1px 10px #ababab;
+    /* box-shadow: 3px 1px 1px #ababab; */
     transition: .4s ease;
     letter-spacing: 1px;
+    position: relative;
+    top: 102px;
+
 }
 button:hover{
     transition: .3s ease;
@@ -55,13 +68,16 @@ button:hover{
 }
 #con{
     position: relative;
-    left: 308px;
+    left: 761px;
 }
 #plus{
     width: 46px;
+    font-size: 27px;
     height: 46px;
     border-radius: 40px;
-    margin: 33px 10px 0px 53px; 
+    position: relative;
+    left: 45px;
+    padding: 0px 1px 1px; 
 }
 form{
     position: absolute;

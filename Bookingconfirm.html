@@ -5,25 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Bookingconfirm.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Booking confirmation</title>
 </head>
 <body>
     <h2>Booking confirmation</h2>
+    <h3> Insert your information to confirm Booking </h3>
+    <div class="info_card"><p>Sedra Nizar Shawish</p>
+        <button class="btn_card" type="submit">Edit</button> <button class="btn_card" type="submit">Delete</button>
+    </div>
+    <!-- <h3>book now to get the best trip</h3> -->
     <form action="">
-        <input type="text" placeholder="Full Name" >
+        <input class="data" type="text" placeholder="Full Name" name="Name" >
+        <input class="data" type="number" placeholder="Mother Name" name="Name" >
+        
         <br>
-        <input type="number" placeholder="ID Number">
+        <input class="data" type="text" placeholder="Father Name" name="Name">
+        <input class="data" type="number" placeholder="ID Number" name="Id">
+        
         <br>
-        <input type="date" placeholder="Birthdate">
-        <br>
-        <input type="number" placeholder="Telephone Number" >
-        <br>
-        <input type="text" placeholder="Email Address">
+        <input class="data" type="date" placeholder="Birthdate" name="Birth_date">
+        <input class="data" type="text" placeholder="Gander" name="gander">
         <br>
         <button id="plus" type="submit">+</button>
         <button id="con" type="submit">confirm</button>
 
     </form>
-
+<script src="book.js"></script>
 </body>
 </html>

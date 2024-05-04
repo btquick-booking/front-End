@@ -11,88 +11,93 @@
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
+
     <title>HOME</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header>
+<body class="p-[0%] m-[0%] box-border font-['Raleway']">
+    <header class="min-h-[140vh] bg-cover bg-no-repeat mt-[-75px]" style="background-image: url('BusHome.png')">
         
         <nav class="navbar">
-        <div id="navbar">
-            <img src="logoBus-removebg-preview.png" alt="bus_logo">
-            <nav class="menu">
-                <ul>
-                    <li><a href="#companies" class="menuu">Companies</a></li>
-                    <li><a href="busticket.html" class="menuu">Search Trip</a></li>
-                    <li><a href="#" class="menuu">About Us</a></li>
-                    <li><a href="#" class="menuu">Contact Us</a></li>
+        <div class="flex justify-between items-end mt-[37px] mb-[37px] ml-[26px] mr-[26px]" >
+            <img class="w-[126px] mt-[23px] mr-[0px] mb-[-34px] ml-[20px]" src="logoBus-removebg-preview.png" alt="bus_logo">
+            <nav class="w-[600px] float-left h-[70px]"> 
+                <ul class="list-none mt-[-10px] flex justify-center items-center float-left">
+                    <li class="list-none text-[15.5px] mt-[29px] p-[14px] pr-[26px]" ><a class="decoration-[none] text-[18px] font-['Raleway'] font-bold text-[#053ead] hover:text-[#87adf9]" href="#companies" >Companies</a></li>
+                    <li class="list-none text-[15.5px] mt-[29px] p-[14px] pr-[26px]"><a class="decoration-[none] text-[18px] font-['Raleway'] font-bold text-[#053ead] hover:text-[#87adf9]" href="busticket.html" >Search Trip</a></li>
+                    <li class="list-none text-[15.5px] mt-[29px] p-[14px] pr-[26px]"><a class="decoration-[none] text-[18px] font-['Raleway'] font-bold text-[#053ead] hover:text-[#87adf9]" href="#" >About Us</a></li>
+                    <li class="list-none text-[15.5px] mt-[29px] p-[14px] pr-[26px]"><a class="decoration-[none] text-[18px] font-['Raleway'] font-bold text-[#053ead] hover:text-[#87adf9]" href="#" >Contact Us</a></li>
                 </ul>
                 
             </nav>
-            <a href="loginForm.html"> <button type="submit" class="btn">Login</button></a>
+            <a href="loginForm.html"> <button type="submit" class="mt-[-10px] w-[100px] h-[40px] bg-[#fff] rounded-[40px] text-[17px] font-['Raleway']
+              font-bold inline-block cursor-pointer text-[#3f70d0] transition duration-[.3s] ease-in hover:bg-[#3f70d0] hover:text-[#fff]  " 
+              style="border: 2px solid #fff; box-shadow: 0px 1px 10px;">Login</button></a>
         </div>
     </nav>
        
-         <div class="content">
-             <h1>TRAVEL IT </h1><br> 
-             <h3>ONLINE SERVICE</h3><br>
-             <p class="par">A Website for organizing and managing trips and<br>
+         <div  class="w-[1200px] h-auto mt-[10px] mr-[10px] mb-[10px] ml-[54px] flex flex-col justify-center" >
+             <h1 class="text-[60px] text-[#3f70d0] font-bold pl-[20px] mt-[7%] tracking-[2px]" style="text-shadow: 1px 1px 3px #ababab;">TRAVEL IT </h1><br> 
+             <h3 class="font-[600px] ml-[21px] text-[#3f70d099]">ONLINE SERVICE</h3><br>
+             <p class="tracking-[1.5px] pl-[20px] pb-[25px] font-['Raleway'] leading-[30px] text-[18px] font-[600px] text-[#4e4d4d]">A Website for organizing and managing trips and<br>
                  reservations throughout Syria between customers<br>
                  and transportation companies to facilitate the<br>
                   reservation process, save time,and achieve <br>
                   a unique experience for users.</P>
-              <button class="cn"><a href="signUp.html">Sign Up</a></button>
+            <button  class="w-[160px] h-[40px] bg-[#3f70d0] border-none mb-[10px] ml-[20px] text-[18px] font-['Raleway'] font-bold rounded-[40px] cursor-pointer transition duration-[.4s] ease-in hover:bg-[#4784dc] hover:shadow-slate-500" style=":hover{box-shadow:1px 2px 7px #ababab}">
+              <a class="decoration-[none] text-[#fff] transition duration-[.3s] ease-in  font-['Raleway'] tracking-[2px]" href="signUp.html">Sign Up</a></button>
          </div>
     </header>
 
     <main>
-        <section id="about">
+        <section  class="bg-cover bg-no-repeat min-h-[116vh] flex  justify-center items-center" style="background-image: url('section22.png')">
             <div class="container">
-                <div class="title">
-                    <h1>Get Your Ticket With 3 Steps</h1>
-                    <p>get a ticket for your great journey. !</p>
+                <div class="text-center mb-[5rem]">
+                    <h1 class="text-[50px] mb-[20px] text-[#3f70d0] font-bold" style="text-shadow: 1px 1px 3px #ababab;">Get Your Ticket With 3 Steps</h1>
+                    <p class="text-[23px] text-center font-[500] text-[#004de5bf]">get a ticket for your great journey. !</p>
                 </div>
-                <div class="about-content">
-
-                    <div class="cardd">
+                <div  class="flex justify-center items-center flex-col md:flex-row">
+                       <!-- cardd -->
+                    <div  class="h-[330px] w-[300px] my-3 md:my-0 bg-transparent backdrop-blur-[20px] text-[#fff] rounded-[40px] py-[16px] px-[40px] mr-[15px] duration-[0.5s] hover:scale-110 z-[2]  " style="border: 2px solid rgba(255, 255, 255, .2); box-shadow: 0 0 10px rgba(0, 0, 0, .2);">
                     
                     <div class="search">
 
-                        <div class="scuare">
-                            <div class="scuare2">
+                        <div class="h-[70px] w-[70px] rounded-[100px] ml-[70px] relative bg-[#93b5f770]">
+                            <div class="h-[55px] w-[55px] rounded-[100px] absolute right-[7px] bottom-[9px] bg-[#4f84eab3]">
                                 <i class="fa fa-search"></i>
                             </div>
                         </div>
-                        <h3>Search Your Trip</h3>
-                        <p class="pa">choose your <br> origin,destination, <br> dates and search for <br> trip.</p>
+                        <h3 class="ml-[13px] text-[25px] font-[600] mt-[16px] text-[#3f70d0] w-[200px]">Search Your Trip</h3>
+                        <p class="text-[23px] mt-[7px]  text-center font-[500] text-[#004de5bf]">choose your <br> origin,destination, <br> dates and search for trip. </p>
 
                     </div>   </div>
-                       
-                     <div class="cardd">
+                        <!-- cardd -->
+                     <div class="h-[330px] my-3 md:my-0 w-[300px] bg-transparent backdrop-blur-[20px] text-[#fff] rounded-[40px] py-[16px] px-[40px] mr-[15px] duration-[0.5s] hover:scale-110 z-[2]  " style="border: 2px solid rgba(255, 255, 255, .2); box-shadow: 0 0 10px rgba(0, 0, 0, .2);">
 
                     <div class="choose">
 
-                        <div class="scuare">
-                            <div class="scuare2">
+                        <div class="h-[70px] w-[70px] rounded-[100px] ml-[70px] relative bg-[#93b5f770]">
+                            <div class="h-[55px] w-[55px] rounded-[100px] absolute right-[7px] bottom-[9px] bg-[#4f84eab3] flex justify-center items-center text-[23px]">
                                 <i class="fa-solid fa-bus"></i>
 
                             </div>
                         </div>
-                        <h3 class="Chooseh3">Choose Your Trip</h3>
-                        <p class="pa">After you  <br>search for your trip, <br> choose the best trip <br> for you. </p>
+                        <h3 class="ml-[11px] text-[25px] font-[600] mt-[16px] text-[#3f70d0] w-[200px]">Choose Your Trip</h3>
+                        <p class="text-[23px] mt-[7px] text-center font-[500] text-[#004de5bf]">After you  <br>search for your trip, <br> choose the best trip <br> for you. </p>
 
                     </div>   </div>
-
-                    <div class="cardd">
+                          <!-- cardd -->
+                    <div class="h-[330px] my-3 md:my-0 w-[300px] bg-transparent backdrop-blur-[20px] text-[#fff] rounded-[40px] py-[16px] px-[40px] mr-[15px] duration-[0.5s] hover:scale-110 z-[2]  " style="border: 2px solid rgba(255, 255, 255, .2); box-shadow: 0 0 10px rgba(0, 0, 0, .2);">
 
                     <div class="pay">
 
-                        <div class="scuare">
-                            <div class="scuare2">
+                        <div class="h-[70px] w-[70px] rounded-[100px] ml-[70px] relative bg-[#93b5f770]">
+                            <div class="h-[55px] w-[55px] rounded-[100px] absolute right-[7px] bottom-[9px] bg-[#4f84eab3] flex justify-center items-center text-[23px]">
                                 <i class="fa-solid fa-money-bill-1-wave"></i>
                             </div>
                         </div>
-                        <h3 class="pay2">Pay for the trip</h3>
-                        <p class="pa">After you  <br>choose, get your data to be packed and<br>   then pay. </p>
+                        <h3 class="ml-[21px] text-[25px] mt-[16px] font-[600] text-[#3f70d0] w-[200px]">Pay for the trip</h3>
+                        <p class="text-[23px] mt-[7px] text-center font-[500] text-[#004de5bf]">After you  <br>choose, get your data to be packed<br> and   then pay. </p>
 
                     </div>  </div>
 
@@ -101,112 +106,7 @@
 
         </section>
 
-        <!-- <section class="slide2"> 
- 
-                <div class="left">
-                    <h2 id="companies">Companies</h2>
-                    <br>
-                    <a href=""> <button type="submit" class="btn1">View all</button></a>
-                    
-                </div>
-                <p class="com">View Recent Companies </p> 
-
-                <div class="cards">
-
-
-                    <div class="Containe">
-
-
-                    <div class="card">
-
-
-                    First img2222_______________________________________________
-
-
-
-
-                    <figure >
-
-                            <img class="CardImg" src="companyphoto3.png" alt="" width="200px">
-
-                    </figure>
-                    
-
-                </div>
-                <p class="company">Alqadmous company</p> 
-                <button class="btn_comp" type="submit">Company profile</button>
-            </div>
-                    Second img2222_______________________________________________
-
-
-
-                <div class="Containe">
-
-                <div class="card">
-
-                    <figure >
-
-                        <img class="CardImg" src="compaphoto2.png" alt="" width="200px">
-
-                </figure>
-            
-                </div>
-                <p class="company">Alahliah  company</p>
-                <button class="btn_comp" type="submit">Company profile</button>
-                </div>
-                
-                       Third img 3333 ____________________________________
-
-
-                <div class="Containe">
-
-                <div class="card">
-                    <figure >
-
-                        <img class="CardImg" src="companyphoto2.png" alt="" width="200px">
-                        
-                </figure>
-                
-                
-            </div>
-             <p class="company">Al-ali company</p>
-             <button class="btn_comp" type="submit">Company profile</button>
-                </div>
-
-                <div class="Containe">
-
-                    <div class="card">
-                        <figure >
-    
-                            <img class="CardImg" src="compaphoto2.png" alt="" width="200px">
-                            
-                    </figure>
-                    
-                   
-    
-                </div>
-                <p class="company">Al-Dahi company</p> 
-                <button class="btn_comp" type="submit">Company profile</button>
-                    </div>
-
-                    <div class="Containe">
-
-                        <div class="card">
-                            <figure >
-        
-                                <img class="CardImg" src="compphoto.png" alt="" width="200px">
-                                
-                        </figure>
-                        
-                        
-        
-                    </div>
-                    <p class="company">Tarwada company</p>
-                    <button class="btn_comp" type="submit">Company profile</button>
-                        </div>
-
-                </div> -->
-
+       
 
 
 
@@ -219,291 +119,221 @@
 
 
 
-<section class="slide-2">
+<section  class="bg-cover bg-no-repeat h-[117vh]" style="background-image: url('sec3.png')">
 
-<section id="tranding">
-    <div class="container1">
-      
-      <h1 class="text-center section-heading">- Bus Companies -</h1>
-      <h3 class="text-center section-subheading">View Recent Companies</h3>
-    </div>
-    <div class="container1">
-      <div class="swiper tranding-slider">
-        <div class="swiper-wrapper">
-          <!-- Slide-start -->
-          <div class="swiper-slide tranding-slide">
-            <div class="tranding-slide-img">
-              <img src="companyBus.jpg" alt="Tranding">
-            </div>
-            <div class="tranding-slide-content">
-              <!-- <h1 class="food-price">$20</h1> -->
-              <div class="tranding-slide-content-bottom">
-                <h2 class="food-name">
-                 Al-waseem
-                </h2>
-                <button class="btn_comp" type="submit">Company profile</button>
-                <!-- <h3 class="food-rating">
-                  <span>4.5</span>
-                  <div class="rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                  </div>
-                </h3> -->
-              </div>
-            </div>
-          </div>
-          <!-- Slide-end -->
-          <!-- Slide-start -->
-          <div class="swiper-slide tranding-slide">
-            <div class="tranding-slide-img">
-              <img src="Alqadmous.png" alt="Tranding">
-            </div>
-            <div class="tranding-slide-content">
-              <!-- <h1 class="food-price">$20</h1> -->
-              <div class="tranding-slide-content-bottom">
-                <h2 class="food-name">
-                  Al-qadmous
-                </h2>
-                <button class="btn_comp" type="submit">Company profile</button>
-                <!-- <h3 class="food-rating">
-                  <span>4.5</span>
-                  <div class="rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                  </div>
-                </h3> -->
-              </div>
-            </div>
-          </div>
-          <!-- Slide-end -->
-          <!-- Slide-start -->
-          <div class="swiper-slide tranding-slide">
-            <div class="tranding-slide-img">
-              <img src="Tarwada.jpg" alt="Tranding">
-            </div>
-            <div class="tranding-slide-content">
-              <!-- <h1 class="food-price">$40</h1> -->
-              <div class="tranding-slide-content-bottom">
-                <h2 class="food-name">
-                 Tarwada
-                </h2>
-                <button class="btn_comp" type="submit">Company profile</button>
-                <!-- <h3 class="food-rating">
-                  <span>4.5</span>
-                  <div class="rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                  </div>
-                </h3> -->
-              </div>
-            </div>
-          </div>
-          <!-- Slide-end -->
-          <!-- Slide-start -->
-          <div class="swiper-slide tranding-slide">
-            <div class="tranding-slide-img">
-              <img src="Alahliaa.jpg" alt="Tranding">
-            </div>
-            <div class="tranding-slide-content">
-              <!-- <h1 class="food-price">$15</h1> -->
-              <div class="tranding-slide-content-bottom">
-                <h2 class="food-name">
-                  Al-ahlia
-                </h2>
-                <button class="btn_comp" type="submit">Company profile</button>
-                <!-- <h3 class="food-rating">
-                  <span>4.5</span>
-                  <div class="rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                  </div>
-                </h3> -->
-              </div>
-            </div>
-          </div>
-          <!-- Slide-end -->
-          <!-- Slide-start -->
-          <div class="swiper-slide tranding-slide">
-            <div class="tranding-slide-img">
-              <img src="Alrafeden.jpg" alt="Tranding">
-            </div>
-            <div class="tranding-slide-content">
-              <!-- <h1 class="food-price">$15</h1> -->
-              <div class="tranding-slide-content-bottom">
-                <h2 class="food-name">
-                    Al-dahi
-                </h2>
-                <button class="btn_comp" type="submit">Company profile</button>
-                <!-- <h3 class="food-rating">
-                  <span>4.5</span>
-                  <div class="rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                  </div>
-                </h3> -->
-              </div>
-            </div>
-          </div>
-          <!-- Slide-end -->
-          <!-- Slide-start -->
-          <div class="swiper-slide tranding-slide">
-            <div class="tranding-slide-img">
-              <img src="Alseraj.jpg" alt="Tranding">
-            </div>
-            <div class="tranding-slide-content">
-              <!-- <h1 class="food-price">$20</h1> -->
-              <div class="tranding-slide-content-bottom">
-                <h2 class="food-name">
-                  Ali AL-Seraj
-                </h2>
-                <button class="btn_comp" type="submit">Company profile</button>
-                <!-- <h3 class="food-rating">
-                  <span>4.5</span>
-                  <div class="rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                  </div>
-                </h3> -->
-              </div>
-            </div>
-          </div>
-          <!-- Slide-end -->
-          <!-- Slide-start -->
-          <div class="swiper-slide tranding-slide">
-            <div class="tranding-slide-img">
-              <img src="Aldahi.jpg" alt="Tranding">
-            </div>
-            <div class="tranding-slide-content">
-              <!-- <h1 class="food-price">$8</h1> -->
-              <div class="tranding-slide-content-bottom">
-                <h2 class="food-name">
-                  Al-majed
-                </h2>
-                <button class="btn_comp" type="submit">Company profile</button>
-                <!-- <h3 class="food-rating">
-                  <span>4.5</span>
-                  <div class="rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                  </div>
-                </h3> -->
-              </div>
-            </div>
-          </div>
-          <!-- Slide-end -->
-        </div>
-
-        <div class="tranding-slider-control">
-          <div class="swiper-button-prev slider-arrow">
-            <ion-icon name="arrow-back-outline"></ion-icon>
-          </div>
-          <div class="swiper-button-next slider-arrow">
-            <ion-icon name="arrow-forward-outline"></ion-icon>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
+  <section id="tranding">
+      <div class="container1">
+        
+        <h1 class="text-center font-bold section-heading">- Bus Companies -</h1>
+        <h3 class="text-center font-[600] mb-[32px] section-subheading">View Recent Companies</h3>
       </div>
-    </div>
+      <div class="container1">
+        <div class="swiper tranding-slider">
+          <div class="swiper-wrapper">
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="companyBus.jpg" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+                <!-- <h1 class="food-price">$20</h1> -->
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="food-name">
+                   Al-waseem Company
+                  </h2>
+                  <button class="btn_comp" type="submit">Company profile</button>
+                  <!-- <h3 class="food-rating">
+                    <span>4.5</span>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3> -->
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="Alqadmous.png" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+                <!-- <h1 class="food-price">$20</h1> -->
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="food-name">
+                    Al-qadmous Company
+                  </h2>
+                  <button class="btn_comp" type="submit">Company profile</button>
+                  <!-- <h3 class="food-rating">
+                    <span>4.5</span>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3> -->
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="Tarwada.jpg" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+                <!-- <h1 class="food-price">$40</h1> -->
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="food-name">
+                   Tarwada Company
+                  </h2>
+                  <button class="btn_comp" type="submit">Company profile</button>
+                  <!-- <h3 class="food-rating">
+                    <span>4.5</span>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3> -->
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="Alahliaa.jpg" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+                <!-- <h1 class="food-price">$15</h1> -->
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="food-name">
+                    Al-ahlia Company
+                  </h2>
+                  <button class="btn_comp" type="submit">Company profile</button>
+                  <!-- <h3 class="food-rating">
+                    <span>4.5</span>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3> -->
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="Alrafeden.jpg" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+                <!-- <h1 class="food-price">$15</h1> -->
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="food-name">
+                      Al-dahi Company
+                  </h2>
+                  <button class="btn_comp" type="submit">Company profile</button>
+                  <!-- <h3 class="food-rating">
+                    <span>4.5</span>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3> -->
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="Alseraj.jpg" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+                <!-- <h1 class="food-price">$20</h1> -->
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="food-name">
+                    Ali AL-Seraj Company
+                  </h2>
+                  <button class="btn_comp" type="submit">Company profile</button>
+                  <!-- <h3 class="food-rating">
+                    <span>4.5</span>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3> -->
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="Aldahi.jpg" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+                <!-- <h1 class="food-price">$8</h1> -->
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="food-name">
+                    Al-majed Company
+                  </h2>
+                  <button class="btn_comp" type="submit">Company profile</button>
+                  <!-- <h3 class="food-rating">
+                    <span>4.5</span>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3> -->
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+          </div>
+  
+          <div class="tranding-slider-control">
+            <div class="swiper-button-prev slider-arrow">
+              <ion-icon name="arrow-back-outline"></ion-icon>
+            </div>
+            <div class="swiper-button-next slider-arrow">
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+  
+        </div>
+      </div>
+    </section>
   </section>
-</section>
-
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-  <script src="script.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
-                 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  
 
 
                 <hr>

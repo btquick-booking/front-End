@@ -15,8 +15,8 @@
     background :url(Contactus.png);
     background-size: cover;
     /* background-repeat: no-repeat; */
-    background-position: center;
-
+    background-position: center;  
+    font-family: 'Raleway';
 }
 
 
@@ -106,7 +106,7 @@ h2
     background: #2DABCA;
     border: none;
     font-size: 18px;
-    font-family: 'Dosis';
+    font-family: ''Raleway'';
     border-radius: 40px;
     cursor: pointer;
     box-shadow: 0px 2px 10px #ababab;
@@ -170,7 +170,7 @@ ul li a{
     /* font-family: Arial; */
     /* transition: 0.4s ease-in-out;
     font-size: 23px;
-    font-family: 'Dosis';
+    font-family: ''Raleway'';
     text-shadow: 1px 2px 7px #ababab;
     font-weight: bold;
     color: #156082;
@@ -188,7 +188,7 @@ ul li a:hover{
     background: #2DABCA;
     border: none;
     font-size: 16px;
-    font-family: 'Dosis';
+    font-family: ''Raleway'';
     border-radius: 40px;
     cursor: pointer;
     box-shadow: 0px 2px 10px #ababab;
@@ -201,7 +201,7 @@ ul li a:hover{
 
 
 footer
-{ font-family: dosis;
+{ font-family: 'Raleway';
     background: #58BBD4;
     background-size: cover;
     background-repeat: no-repeat;

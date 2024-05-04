@@ -6,13 +6,8 @@ body{
     font-family: raleway;
 }
 h2{
-       font-size: 60px;
-       font-size: 60px;
-       text-shadow: 3px 3px 7px #ababab;
-       color: #13709a;
+    
     font-size: 60px;
-       text-shadow: 3px 3px 7px #ababab;
-       color: #13709a;
     margin: 0px;
     position: absolute;
     top: -40px;
@@ -22,7 +17,7 @@ h2{
 }
 p{
     font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway';
     font-weight: 700;
     color: #3f70d0;
     position: relative;

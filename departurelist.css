@@ -27,7 +27,7 @@ table{
 }
 th{
     background-color: #509AC0;
-    text-shadow: 1px 2px 7px #6b6b6b;
+    /* text-shadow: 1px 2px 7px #6b6b6b; */
     color: #fff;
     height: 40px;
     padding: 10px;
@@ -40,13 +40,13 @@ td{
     color: #195E82;
     padding: 10px;
     width: 35px;
-    text-shadow: 1px 2px 7px #878787;
+    /* text-shadow: 1px 2px 7px #878787; */
 }
 button a{
     text-decoration: none;
     font-size: 20px;
     color: #15455f;
-    text-shadow: 1px 2px 7px #878787;
+    /* text-shadow: 1px 2px 7px #878787; */
 
 }
 button{

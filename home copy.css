@@ -83,7 +83,7 @@ ul li a{
 
 
 }
-.left h2{
+/* .left h2{
     font-size: 52px;
     color: #3f70d0;
     text-shadow: 1px 1px 3px #ababab;
@@ -199,8 +199,9 @@ figcaption {
 figure{
     width: 115px;
     height: 115px;
-}
-.company{
+} */
+
+/* .company{
     font-size: 21px;
     margin-top: 18px;
     text-shadow: 1px 2px 7px #ababab;
@@ -213,7 +214,7 @@ figure{
     background-size: cover;
     background-repeat: no-repeat;
 
-}
+} */
 
 
 
@@ -283,9 +284,9 @@ figure{
 }
 h3
 {
-    margin-left: 21px;
+    /* margin-left: 21px;
     font-weight: 600;
-    color: #3f70d099;
+    color: #3f70d099; */
     
 }
 
@@ -419,7 +420,7 @@ header .content
     margin-top: 7px;
     color:#201e1e; */
 }
-
+/* بدي */
 .fa-search:before {
     content: "\f002";
     position: absolute;
@@ -506,7 +507,7 @@ header .content
 }
 
 
-.left{
+/* .left{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -523,7 +524,7 @@ header .content
     position: relative;
     right: 9%;
     font-size: 34px;
-}
+} */
 
 
 

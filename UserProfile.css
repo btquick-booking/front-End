@@ -4,7 +4,10 @@ body{
     background-repeat: no-repeat;
     font-family: 'Raleway';
     position: relative;
-    overflow: hidden
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .image{
@@ -138,7 +141,7 @@ h3::before{
     cursor: pointer;
     color: #fff;
     position: relative;
-    bottom: 317px;
+    bottom: 235px;
     left: 370px;
     
 }
